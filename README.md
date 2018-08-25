@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/11228182/22874613/07031906-f1ed-11e6-8951-d96b9d9274c6.png"></p>
 
 <p align="center">
@@ -9,6 +10,8 @@
 <a href="https://packagist.org/packages/deepbajwa3/instamojo"><img src="https://poser.pugx.org/deepbajwa3/instamojo/license" alt="License"></a>
 </p>
 
+=======
+>>>>>>> 2b4188d60d827cef58cd502f6150d2457f859fe2
 ## Introduction
 
 Insta Mojo provides an expressive, fluent interface to [Instamojo's](https://instamojo.com) online payments and refund services. It handles almost all of the boilerplate payment code you are dreading writing and are unable to watch next episode of Narcos because of the same. In addition to the basic payments and refunds management, Mojo stores all the tansactions & refunds details with him and gives them to you as you ask (No you don't even need to shout Ok google for that). 
@@ -61,4 +64,8 @@ Next, you must add the service provider:
 You can publish the config-file "instamojo.php" with:
 ```bash
 php artisan vendor:publish --provider="Deepbajwa3\Instamojo\InstamojoServiceProvider"
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 2b4188d60d827cef58cd502f6150d2457f859fe2
