@@ -1,7 +1,12 @@
 {
     "name": "deepbajwa3/instamojo",
     "description": "Laravel InstaMojo provides an expressive, fluent interface to Instamojo's payment and refund services.",
-    "keywords": ["laravel", "instamojo", "package"],
+    "keywords": [
+        "Laravel 5",
+        "InstaMojo Payment gateway",
+        "PHP 7.1 Integration Kit"
+    ],
+    "version": "1.0.0",
     "license": "MIT",	
     "authors": [
         {
