@@ -1,0 +1,33 @@
+{
+    "name": "deepbajwa3/instamojo",
+    "description": "Laravel InstaMojo provides an expressive, fluent interface to Instamojo's payment and refund services.",
+    "keywords": ["laravel", "instamojo", "package"],
+    "license": "MIT",	
+    "authors": [
+        {
+            "name": "Raman Deep Bajwa",
+            "email": "dbajwa763@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Deepbajwa3\\Instamojo\\": "src/"
+        }
+    },
+    "require": {
+    	"php": "^7.0",
+        "illuminate/database": "~5.3",
+        "illuminate/support": "~5.3"
+    },
+    "require-dev": {
+        "illuminate/routing": "~5.3",
+        "illuminate/http": "~5.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deepbajwa3\\Instamojo\\InstamojoServiceProvider"
+            ]
+        }
+    }
+}
